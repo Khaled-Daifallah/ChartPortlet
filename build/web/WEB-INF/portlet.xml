@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<portlet-app xmlns='http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd                         http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd' version='1.0'>
+	<portlet>
+		<description>Created By Khaled Daifallah</description>
+		<portlet-name>Portlet1</portlet-name>
+		<display-name>Test Charts</display-name>
+		<portlet-class>com.sun.faces.portlet.FacesPortlet</portlet-class>
+		<init-param>
+			<name>com.sun.faces.portlet.INIT_VIEW</name>
+			<value>/PortletPage1.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+		</supports>
+		<supported-locale>en</supported-locale>
+		<portlet-info>
+			<title>charts</title>
+			<short-title>P_CH</short-title>
+			<keywords>Creator</keywords>
+		</portlet-info>
+	</portlet>
+</portlet-app>
